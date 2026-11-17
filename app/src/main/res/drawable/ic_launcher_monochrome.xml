@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Upper gravitational lensing photon arch + event horizon cutout (evenOdd) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M54,32 A22,22 0 1,1 53.99,32 Z M54,40 A14,14 0 1,0 54.01,40 Z" />
+    <!-- Tilted relativistic accretion disk sweeping cleanly around the event horizon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M21,62 C19,54 34,47 54,44 C74,41 88,43 87,49 C86,55 71,62 51,65 C31,68 22,67 21,62 Z M32,59 C33,62 42,61 53,59 C64,57 76,53 75,50 C74,47 63,48 52,50 C41,52 31,56 32,59 Z" />
+</vector>

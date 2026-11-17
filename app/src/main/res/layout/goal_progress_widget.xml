@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/goal_widget_root"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:background="#181A24">
+    <TextView
+        android:id="@+id/goal_widget_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:text="Metas · StudyDock" />
+    <TextView
+        android:id="@+id/goal_widget_metric"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#C9D1FF"
+        android:textSize="12sp"
+        android:paddingTop="4dp"
+        android:maxLines="2"
+        android:text="Toque para abrir" />
+    <ImageView
+        android:id="@+id/goal_widget_bar"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_marginTop="6dp"
+        android:contentDescription="Progresso da meta" />
+</LinearLayout>

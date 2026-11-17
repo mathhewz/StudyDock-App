@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/timer_widget_root"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:background="#102337"
+    tools:ignore="Overdraw">
+    <TextView
+        android:id="@+id/timer_widget_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#A3D8FF"
+        android:textSize="12sp"
+        android:text="StudyDock · Timer" />
+    <Chronometer
+        android:id="@+id/timer_widget_chronometer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:paddingTop="4dp"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/timer_widget_elapsed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:paddingTop="4dp"
+        android:text="00:00" />
+    <TextView
+        android:id="@+id/timer_widget_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#D0E8FF"
+        android:textSize="12sp"
+        android:paddingTop="4dp"
+        android:text="Toque para iniciar ou retomar" />
+</LinearLayout>

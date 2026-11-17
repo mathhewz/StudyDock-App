@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Exclui credenciais e dados pessoais sensíveis (diário, refeições, treinos, notas) do backup em nuvem automático -->
+    <exclude domain="sharedpref" path="studydock_secure_settings.xml" />
+    <exclude domain="database" path="studydock.db" />
+    <exclude domain="database" path="studydock.db-wal" />
+    <exclude domain="database" path="studydock.db-shm" />
+</full-backup-content>

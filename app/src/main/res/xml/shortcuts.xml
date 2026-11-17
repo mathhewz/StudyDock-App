@@ -1,0 +1,41 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="shortcut_timer"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_recent_history"
+        android:shortcutShortLabel="@string/shortcut_timer_short"
+        android:shortcutLongLabel="@string/shortcut_timer_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.studydock.app"
+            android:targetClass="com.studydock.app.MainActivity">
+            <extra android:name="open_timer_page" android:value="true" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="shortcut_new_note"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:shortcutShortLabel="@string/shortcut_note_short"
+        android:shortcutLongLabel="@string/shortcut_note_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.studydock.app"
+            android:targetClass="com.studydock.app.MainActivity">
+            <extra android:name="open_new_note" android:value="true" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="shortcut_flashcards"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:shortcutShortLabel="@string/shortcut_cards_short"
+        android:shortcutLongLabel="@string/shortcut_cards_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.studydock.app"
+            android:targetClass="com.studydock.app.MainActivity">
+            <extra android:name="open_cards_page" android:value="true" />
+        </intent>
+    </shortcut>
+</shortcuts>

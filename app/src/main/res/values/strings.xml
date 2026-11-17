@@ -1,0 +1,10 @@
+<resources>
+    <string name="review_widget_chart_desc">Gráfico de revisões</string>
+    <string name="shortcut_timer_short">Timer</string>
+    <string name="shortcut_timer_long">Abrir timer de estudo</string>
+    <string name="shortcut_note_short">Nova nota</string>
+    <string name="shortcut_note_long">Criar nota no Segundo Cérebro</string>
+    <string name="shortcut_cards_short">Revisar</string>
+    <string name="shortcut_cards_long">Revisar flashcards</string>
+    <string name="tile_timer_label">Estudo</string>
+</resources>
